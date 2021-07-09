@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dca9e46-b103-4a04-b35d-3d5d323c9b14" name="Default Changelist" comment="" />
+    <list default="true" id="3dca9e46-b103-4a04-b35d-3d5d323c9b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/io-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-demo/src/main/java/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/src/main/java/NIODemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -33,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1v3WDAfQkRbMwn6yyDsf9U3fcZA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -44,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/io-demo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -55,10 +63,19 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/io-demo/src/main/java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="NIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NIODemo" />
-      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/io-demo" />
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,6 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625791130996</updated>
       <workItem from="1625791132681" duration="21568000" />
+      <workItem from="1625816430078" duration="2326000" />
     </task>
     <servers />
   </component>

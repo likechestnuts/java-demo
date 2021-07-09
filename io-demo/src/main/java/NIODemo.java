@@ -58,7 +58,12 @@ public class NIODemo {
 							// 清空buffer 变成可写状态
 							buffer.clear();
 						}
-						// 继续注册写事件
+						// 继续注册写事件 为什么会有写事件，在读里面就可以写入返回啊
+
+						// 写操作的就绪条件为底层缓冲区有空闲空间，
+						// 而写缓冲区绝大部分时间都是有空闲空间的，所以当你注册写事件后，写操作一直是就绪的，选择处理线程全占用整个CPU资源。
+						// 所以，只有当你确实有数据要写时再注册写操作，并在写完以后马上取消注册。
+						// 就是说注册写事件会有空闲或者可写的校验
 						sc.register(selector, SelectionKey.OP_WRITE, new String(result.array(), StandardCharsets.UTF_8));
 					} else if (key.isWritable()) {
 						SocketChannel sc = (SocketChannel) key.channel();
@@ -68,6 +73,8 @@ public class NIODemo {
 						while (buffer.hasRemaining()) {
 							sc.write(buffer);
 						}
+						sc.shutdownOutput();
+						sc.shutdownInput();
 						// 回写数据完成，关闭channel
 						sc.close();
 					}

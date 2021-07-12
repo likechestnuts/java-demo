@@ -23,13 +23,13 @@ public class NIODemo {
 		ServerSocketChannel ssc = ServerSocketChannel.open();
 		// 服务端开启对8082端口的监听
 		ssc.socket().bind(new InetSocketAddress(8082));
-		// 设置为非阻塞模式
-		// 思考1：阻塞和同步是一个概念吗？非阻塞=异步？
+		// 设置为非阻塞模式 必须设置为异步 不然无法使用Selector
 		ssc.configureBlocking(false);
-		// 注册监听到selector上
+		// 注册监听到selector上 ServerSocketChannel只支持SelectionKey.OP_ACCEPT类型
 		ssc.register(selector, SelectionKey.OP_ACCEPT);
+
 		while (!Thread.interrupted()) {
-			// 因为是非阻塞模式，所以不论是否接收到请求，selector.select()都会立即返回。这里需要判断是否真正的accept
+			// select方法会阻塞线程，直到有一个通道连接
 			if (selector.select() > 0) {
 				// 处理接收到的事件
 				Set<SelectionKey> selectionKeys = selector.selectedKeys();

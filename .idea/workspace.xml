@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dca9e46-b103-4a04-b35d-3d5d323c9b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io-demo/src/main/java/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/src/main/java/NIODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-demo/target/classes/NIODemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/target/classes/NIODemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -71,24 +80,7 @@
   <component name="RunManager">
     <configuration name="NIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NIODemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/io-demo" />
-      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
-        <option name="ENABLED" value="false" />
-        <entries />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <module name="io-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,7 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625791130996</updated>
       <workItem from="1625791132681" duration="21568000" />
-      <workItem from="1625816430078" duration="2326000" />
+      <workItem from="1625816430078" duration="5268000" />
+      <workItem from="1626050394797" duration="405000" />
     </task>
     <servers />
   </component>

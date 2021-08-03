@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" filepath="$PROJECT_DIR$/adapter-pattern/adapter-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator-pattern/decorator-pattern.iml" filepath="$PROJECT_DIR$/decorator-pattern/decorator-pattern.iml" />
+    </modules>
+  </component>
+</project>

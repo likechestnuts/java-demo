@@ -30,7 +30,7 @@ public class TestTemplateParse {
 	@Test
 	public void parsingMultipleVariables(){
 	    List<String> segments = parse("${a}:${b}:${c}");
-
+		assertSegments(segments, "${a}", ":", "${b}", ":", "${c}");
 	}
 
 	private void assertSegments(List<? extends Object> actual, Object... expected) {

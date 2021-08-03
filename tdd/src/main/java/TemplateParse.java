@@ -2,6 +2,7 @@
  * Copyright (c) 2021, wangguodong. All rights reserved.
  */
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  */
 public class TemplateParse {
 	public List<String> parse(String template) {
+		List<String> segments = new ArrayList<>();
 		return Collections.singletonList(template);
 	}
 }

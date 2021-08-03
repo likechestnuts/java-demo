@@ -8,16 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dca9e46-b103-4a04-b35d-3d5d323c9b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/strategy策略模式/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy策略模式/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/main/java/MissingValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/main/java/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/main/java/TemplateParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/test/java/RegexLearningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/test/java/TestTemplateParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/src/test/java/TestTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/src/RunnableAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/BoldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/DivDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/NodeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/SpanNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-pattern/src/TextNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/AbstractConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/LazyConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/LazyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/PooledConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/PooledDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-demo/target/classes/NIODemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/target/classes/NIODemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io-demo/target/classes/ResponseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/io-demo/target/classes/ResponseUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy策略模式/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy策略模式/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy策略模式/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/TemplateParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/TemplateParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/test/java/TestTemplateParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/test/java/TestTemplateParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/classes/MissingValueException.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/classes/MissingValueException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/classes/Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/classes/Template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/classes/TemplateParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/classes/TemplateParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/test-classes/RegexLearningTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/test-classes/RegexLearningTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/test-classes/TestTemplateParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/test-classes/TestTemplateParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/target/test-classes/TestTemplateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/target/test-classes/TestTemplateTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +66,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/BoldDecorator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/TextNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/SpanNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/NodeDecorator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/decorator-pattern/src/DivDecorator.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -53,7 +81,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/myJob/maven" />
-        <option name="mavenHome" value="$USER_HOME$/myApplications/apache-maven-3.6.1" />
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
         <option name="userSettingsFile" value="$USER_HOME$/myApplications/apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -83,7 +111,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -105,21 +133,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTemplateParse">
-    <configuration name="TestTemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestTemplateTest" />
-      <module name="tdd" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="decorator-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="proxy-pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="adapter-pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,30 +177,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTemplateParse.templateWithOnlyPlainText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemplateParse.parsingMultipleVariables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestTemplateParse" />
-      <option name="METHOD_NAME" value="templateWithOnlyPlainText" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTemplateTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTemplateTest.multipleVariables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTemplateTest" />
-      <option name="METHOD_NAME" value="multipleVariables" />
+      <option name="METHOD_NAME" value="parsingMultipleVariables" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestTemplateParse.parsingMultipleVariables" />
         <item itemvalue="JUnit.TestTemplateParse" />
-        <item itemvalue="JUnit.TestTemplateParse.templateWithOnlyPlainText" />
-        <item itemvalue="JUnit.TestTemplateTest" />
-        <item itemvalue="Application.TestTemplateTest" />
-        <item itemvalue="JUnit.TestTemplateTest.multipleVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +266,10 @@
       <workItem from="1626654679402" duration="10958000" />
       <workItem from="1626740092863" duration="6063000" />
       <workItem from="1627000891002" duration="599000" />
-      <workItem from="1627008151432" duration="6289000" />
+      <workItem from="1627008151432" duration="6434000" />
+      <workItem from="1627259547310" duration="1479000" />
+      <workItem from="1627953302668" duration="6006000" />
+      <workItem from="1627965136403" duration="6310000" />
     </task>
     <servers />
   </component>

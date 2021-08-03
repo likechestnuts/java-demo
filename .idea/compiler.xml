@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="strategy策略模式" />
+        <module name="proxy-pattern" />
         <module name="io-demo" />
         <module name="demo" />
         <module name="tdd" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="strategy策略模式" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
